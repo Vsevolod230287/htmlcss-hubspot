@@ -164,7 +164,6 @@ select {
   line-height: 70px;
 }
 
-
 .logo img {
   width: 110px;
   vertical-align: middle;
@@ -174,12 +173,16 @@ select {
 .text-under-btn-jumbo {
   padding-top: 20px;
 }
+
 header .jumbotron {
   background-repeat: no-repeat;
-  background-position: right top;
-  background-size: contain;
-  height: 500px;
-  background-image: url('../img/jumbotron.png');
+  background-position: 322px -0;
+  background-size: 77%;
+  height: 445px;
+  background-image: url(../img/jumbotron.png);
+}
+
+background-image: url('../img/jumbotron.png');
 }
 
 .jumbotron h1 {
@@ -207,10 +210,26 @@ header .jumbotron .all-text-jumbo {
 /* jumbotron */
 /* header */
 /* main */
+main .row-under-jumbo {
+  background-color: #AFEBE4;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+ .card-section {
+  height: 500px;
+  background-color: #F4F9FD;
+
+}
+
 /* main */
 /* footer */
 /* footer */
 /* utility */
+.h-70 {
+  height: 70px;
+}
+
 .p-right {
   padding-right: 5px;
 }
