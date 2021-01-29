@@ -52,6 +52,15 @@ ul li a {
 
 /* layout */
 /* header */
+nav.bg-lightgrey {
+  height: 67px;
+  border-bottom: 2px solid #627583;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 ul {
   display: inline-block;
   list-style: none;
@@ -66,11 +75,8 @@ header nav ul li {
   border-right: 2px solid #627583;
 }
 
-padding-left: 15px;
-
 .bordo-a {
   padding-left: 15px;
-  border-left: 2px solid black;
 }
 
 ul li a {
@@ -86,7 +92,7 @@ ul li a {
   color: #627583;
 }
 
-select {
+.lang-select select {
   color: #627583;
   display: inline-block;
   border: none;
@@ -104,7 +110,8 @@ select {
   display: inline-block;
 }
 
-.bordo-a a {
+a {
+  margin-right: 15px;
   color: #627583;
   text-decoration: none;
 }
@@ -122,12 +129,44 @@ select {
   border: 2px solid #FE775A;
 }
 
+.sub-nav {
+  height: 65px;
+  background-color: #ffffff;
+  margin-top: 67px;
+}
+
+select {
+  color: #627583;
+  display: inline-block;
+  border: none;
+  background-color: #ffffff;
+  margin-right: 15px;
+}
+
+.items-to-right {
+  line-height: 65px;
+  display: inline-block;
+  float: right;
+}
+
+.logo {
+  line-height: 65px;
+}
+
+.logo img {
+  vertical-align: middle;
+}
+
 /* header */
 /* main */
 /* main */
 /* footer */
 /* footer */
 /* utility */
+.p-right {
+  padding-right: 6px;
+}
+
 .bg-lightgrey {
   background-color: #fff2ee;
 }
