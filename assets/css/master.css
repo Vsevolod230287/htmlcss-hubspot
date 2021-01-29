@@ -10,12 +10,11 @@ body {
 }
 
 .container {
-  background-color: lightgrey;
   width: 80%;
   margin: 0 auto;
 }
 
-.row{
+.row {
   margin: 0 -15px;
 }
 
@@ -41,29 +40,75 @@ body {
 .col-25 {
   width: 25%;
 }
+
+ul {
+  list-style: none;
+}
+
+ul li a {
+  color:
+    text-decoration: none;
+}
+
 /* layout */
+/* header */
+ul {
+  display: inline-block;
+  list-style: none;
+}
+
+header nav ul li {
+  margin-right: 15px;
+  padding: 15px 15px;
+  display: inline-block;
+}
+.lang-select {
+  border-right: 2px solid black;
+}
+
+  padding-left: 15px;
+
+  .bordo-a {
+    padding-left: 15px;
+    border-left: 2px solid black;
+  }
+
+ul li a {
+  color: black;
+  text-decoration: none;
+
+}
+
+.lang-select {
+  display: inline-block;
+}
+select {
+  display: inline-block;
+  border:none;
+  background-color: #fff2ee;
+  margin-right: 15px;
+}
 
 /* header */
-
-/* header */
-
 /* main */
 /* main */
-
 /* footer */
 /* footer */
-
-
-
-
 /* utility */
 .bg-lightgrey {
   background-color: #fff2ee;
 }
+
 .b-right {
   border-right: 2px solid black;
 }
+
 .b-bottom {
   border-bottom: 2px solid black;
 }
+
+.d-inline-block {
+  display: inline-block;
+}
+
 /* utility */
