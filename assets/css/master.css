@@ -1,12 +1,13 @@
 /* layout */
 * {
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  background-color: red;
+  background-color: #FFF4EF;
 }
 
 .container {
@@ -37,6 +38,10 @@ body {
   width: 50%;
 }
 
+.col-70 {
+  width: 70%;
+}
+
 .col-25 {
   width: 25%;
 }
@@ -53,8 +58,7 @@ ul li a {
 /* layout */
 /* header */
 nav.bg-lightgrey {
-  height: 67px;
-  border-bottom: 2px solid #627583;
+  border-bottom: 1px solid #627583;
   width: 100vw;
   position: fixed;
   top: 0;
@@ -93,6 +97,7 @@ ul li a {
 }
 
 .lang-select select {
+  margin-left: 0px;
   color: #627583;
   display: inline-block;
   border: none;
@@ -110,8 +115,13 @@ ul li a {
   display: inline-block;
 }
 
+.bordo-a a {
+  margin-left: -15px;
+}
+
 a {
-  margin-right: 15px;
+  font-size: 15px;
+  padding-left: 15px;
   color: #627583;
   text-decoration: none;
 }
@@ -130,33 +140,71 @@ a {
 }
 
 .sub-nav {
-  height: 65px;
   background-color: #ffffff;
   margin-top: 67px;
 }
 
 select {
+  font-size: 15px;
+  outline: none;
   color: #627583;
   display: inline-block;
   border: none;
   background-color: #ffffff;
-  margin-right: 15px;
+  margin-left: 15px;
 }
 
 .items-to-right {
-  line-height: 65px;
+  line-height: 70px;
   display: inline-block;
   float: right;
 }
 
 .logo {
-  line-height: 65px;
+  line-height: 70px;
 }
 
+
 .logo img {
+  width: 110px;
   vertical-align: middle;
 }
 
+/* jumbotron */
+.text-under-btn-jumbo {
+  padding-top: 20px;
+}
+header .jumbotron {
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: contain;
+  height: 500px;
+  background-image: url('../img/jumbotron.png');
+}
+
+.jumbotron h1 {
+  font-family: 'Montserrat', sans-serif;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.title-jumbo {
+  font-size: 24px;
+}
+
+header .jumbotron .all-text-jumbo {
+  padding-top: 36px;
+}
+
+.text-under-title-jumbo {
+  font-size: 15px;
+  padding: 20px 0;
+  line-height: 2em;
+}
+
+.btn-get-free-jumbo {}
+
+/* jumbotron */
 /* header */
 /* main */
 /* main */
@@ -164,7 +212,7 @@ select {
 /* footer */
 /* utility */
 .p-right {
-  padding-right: 6px;
+  padding-right: 5px;
 }
 
 .bg-lightgrey {
