@@ -27,7 +27,7 @@ body {
 
 [class^="col-"] {
   float: left;
-  padding: 0 15px;
+  /* padding: 0 15px; */
 }
 
 .col-25 {
@@ -35,7 +35,7 @@ body {
 }
 
 .col-33 {
-  width: 33%;
+  width: calc((100% - 90px) / 3);
 }
 
 .col-50 {
@@ -306,7 +306,44 @@ main .card-section .img-book {
   color: #FE775A;
 }
 
+/* le tre colone piccole */
+.titolo-left-card {
+  font-size: 20px;
+  padding-top: 8px;
+}
+ .titolo-center-card {
+   padding-top: 42px;
+   font-size: 20px;
+ }
+ .titolo-right-card {
+   font-size: 20px;
 
+ }
+
+
+.img-card-left, .img-card-center, .img-card-right  {
+  display: block;
+  margin: 0 auto;
+  padding: 30px 15px;
+  width: 165px;
+}
+.card-section .col-33 {
+  font-size: 14px;
+  padding: 0 30px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+.col-left {
+
+  margin-right: 30px;
+}
+.col-center {
+  margin: 0 15px;
+}
+.col-right {
+  margin-left: 30px;
+}
 
 
 /* main */
