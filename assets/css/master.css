@@ -309,10 +309,10 @@ main .card-section .img-book {
 /* le tre colone piccole */
 .titolo-left-card {
   font-size: 20px;
-  padding-top: 8px;
+  padding-top: 15px;
 }
  .titolo-center-card {
-   padding-top: 42px;
+   padding-top: 43px;
    font-size: 20px;
  }
  .titolo-right-card {
@@ -329,7 +329,7 @@ main .card-section .img-book {
 }
 .card-section .col-33 {
   font-size: 14px;
-  padding: 0 30px;
+  padding: 20px 30px;
   text-align: center;
   border-radius: 5px;
   background-color: #ffffff;
@@ -407,6 +407,10 @@ margin-bottom: 50px;
 
 .fa-search {
   color: #50BFD1;
+}
+
+.l-h-2 {
+  line-height: 2em;
 }
 
 /* utility */
