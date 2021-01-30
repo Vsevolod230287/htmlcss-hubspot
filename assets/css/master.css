@@ -30,20 +30,28 @@ body {
   padding: 0 15px;
 }
 
-.col-100 {
-  width: 100%;
+.col-25 {
+  width: 25%;
+}
+
+.col-33 {
+  width: 33%;
 }
 
 .col-50 {
   width: 50%;
 }
 
+.col-67 {
+  width: 67%
+}
+
 .col-70 {
   width: 70%;
 }
 
-.col-25 {
-  width: 25%;
+.col-100 {
+  width: 100%;
 }
 
 ul {
@@ -96,22 +104,23 @@ ul li a {
   color: #627583;
 }
 
-.lang-select select {
+.inglob-left-item select {
   margin-left: 0px;
   color: #627583;
   display: inline-block;
   border: none;
   background-color: #fff2ee;
-  margin-right: 15px;
+  margin-right: 5px;
 }
 
 .inglob-left-item {
-  padding: 23px 0;
+  padding-top: 22px;
   display: inline-block;
 }
 
 .bordo-a {
-  padding-left: 14px;
+  height: auto;
+  border-left: 1px solid grey;
   display: inline-block;
 }
 
@@ -171,6 +180,7 @@ select {
 
 /* jumbotron */
 .text-under-btn-jumbo {
+  font-size: 13px;
   padding-top: 20px;
 }
 
@@ -216,18 +226,83 @@ main .row-under-jumbo {
   border-bottom: 2px solid black;
 }
 
- .card-section {
-  height: 500px;
+.card-section {
   background-color: #F4F9FD;
+}
 
+.card-section .top-img {
+  margin: 0 auto;
+  width: 350px;
+}
+
+.card-section .top-img img {
+  width: 100%;
+}
+
+.card-section .title-under-img {
+  text-align: center;
+}
+
+.paragrafo-under-title {
+  font-size: 14px;
+  text-align: center;
+  line-height: 2em;
+}
+
+.title-free-hubspot-crm {
+  font-size: 19px;
+}
+
+.paragraf-under-title-free-hubspot-crm {
+  line-height: 2em;
+  font-size: 14px;
+}
+
+.popolar-feature-whith-hr-70 {
+  text-transform: uppercase;
+}
+
+.col-67 .div-hr-70 .hr-70 {
+  width: 90%;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 auto;
+}
+
+.col-67 .div-hr-70 {
+  width: 67%;
+  text-align: center;
+  display: inline-block;
+}
+
+main .card-section .img-book {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.btn-learn-more {
+  display: block;
+  margin: 0 auto;
 }
 
 /* main */
 /* footer */
 /* footer */
 /* utility */
+.b-radius-5 {
+  border-radius: 5px;
+}
+
 .h-70 {
   height: 70px;
+}
+
+.p-top {
+  padding-top: 50px;
+}
+
+.p-bottom {
+  padding-bottom: 20px;
 }
 
 .p-right {
@@ -236,6 +311,10 @@ main .row-under-jumbo {
 
 .bg-lightgrey {
   background-color: #fff2ee;
+}
+
+.bg-white {
+  background-color: white;
 }
 
 .b-right {
