@@ -375,10 +375,13 @@ main .card-section .img-book {
   color: white;
 
   }
-
-.div-under-handshake h2 {
-display: inline-block;
+  [class*="collon-"] p {
+    font-size: 12px;
+  }
+.box {
+vertical-align: middle;
 }
+
 
 /* main */
 /* footer */
@@ -403,9 +406,17 @@ display: inline-block;
 .mb-50 {
 margin-bottom: 50px;
 }
-
+.p-top-27 {
+  padding-top: 27px;
+}
 .p-top {
   padding-top: 50px;
+}
+.p-top-10 {
+  padding-top: 10px;
+}
+.p-top-20 {
+  padding-top: 20px;
 }
 
 .p-bottom-50 {
