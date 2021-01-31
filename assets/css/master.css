@@ -38,8 +38,16 @@ body {
   width: calc((100% - 90px) / 3);
 }
 
+.col-40 {
+  width: 40%;
+}
+
 .col-50 {
   width: 50%;
+}
+
+.col-60 {
+  width: 60%;
 }
 
 .col-67 {
@@ -192,8 +200,6 @@ header .jumbotron {
   background-image: url(../img/jumbotron.png);
 }
 
-
-
 .jumbotron h1 {
   font-family: 'Montserrat', sans-serif;
   background-position: 0 0;
@@ -256,6 +262,7 @@ main .row-under-jumbo {
   line-height: 2em;
   font-size: 14px;
 }
+
 .row .div-btn-learn-more {
   padding-top: 15px;
 }
@@ -293,15 +300,17 @@ main .card-section .img-book {
   background-color: #FE775A;
   border: none;
 }
+
 .rounded-checkbox-green-with-chekmark {
   padding: 40px 0;
 }
-.rounded-checkbox-green-with-chekmark  span{
+
+.rounded-checkbox-green-with-chekmark span {
   padding-right: 30px;
 }
 
 .fa-check-circle {
-  margin-right:  10px;
+  margin-right: 10px;
   font-size: 16px;
   color: #FE775A;
 }
@@ -311,22 +320,23 @@ main .card-section .img-book {
   font-size: 20px;
   padding-top: 15px;
 }
- .titolo-center-card {
-   padding-top: 43px;
-   font-size: 20px;
- }
- .titolo-right-card {
-   font-size: 20px;
 
- }
+.titolo-center-card {
+  padding-top: 43px;
+  font-size: 20px;
+}
 
+.titolo-right-card {
+  font-size: 20px;
+}
 
-.img-card-left, .img-card-center, .img-card-right  {
+.img-card-left, .img-card-center, .img-card-right {
   display: block;
   margin: 0 auto;
   padding: 30px 15px;
   width: 165px;
 }
+
 .card-section .col-33 {
   font-size: 14px;
   padding: 20px 30px;
@@ -334,24 +344,27 @@ main .card-section .img-book {
   border-radius: 5px;
   background-color: #ffffff;
 }
-.col-left {
 
+.col-left {
   margin-right: 30px;
 }
+
 .col-center {
   margin: 0 15px;
 }
+
 .col-right {
   margin-left: 30px;
 }
 
-
-
 /* la seconda section */
-.section-2 {
+.second-section{
   background-color: #00B9A8;
 }
-
+.row-with-eight-colon-second-section {
+  text-align: center;
+  color: #ffffff;
+}
 .div-first-p-in-second-section {
   text-align: center;
   color: white;
@@ -360,6 +373,7 @@ main .card-section .img-book {
   font-weight: 600;
   line-height: 2em;
 }
+
 .div-second-p-in-second-section {
   padding-bottom: 50px;
   text-align: center;
@@ -368,23 +382,88 @@ main .card-section .img-book {
   font-weight: 500;
   line-height: 2em;
 }
+.text-align-left {
+  text-align: left;
+}
+.collon-8 .community_blog {
+   padding: 15px 0;
+ }
 
-[class*="collon-"] {
+[class^="collon-"] {
   height: 150px;
   text-align: center;
   color: white;
+}
 
-  }
-  [class*="collon-"] p {
-    font-size: 12px;
-  }
+[class*="collon-"] p {
+  font-size: 12px;
+}
+
 .box {
-vertical-align: middle;
+  vertical-align: middle;
+}
+
+/* section before footer */
+.first-row-section-before-footer {
+text-align: center;
+padding-top: 20px;
+}
+.col-40 {
+  padding: 50px 0;
+  line-height: 2em;
+}
+.title_Third_Colon {
+  padding-bottom: 30px;
 }
 
 
+.col-60 {
+  padding: 50px 0;
+}
+
+.webp {
+  width: 130px;
+  display: inline-block;
+}
+
+.webp img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+.first-four-logo {
+  padding-bottom: 20px;
+}
+.secondColon-SecondRow-sectionBeforeFfooter {
+  height: 448px;
+}
+.img-woman-section-before-footer {
+  text-align: end;
+  height: 100%;
+}
+.img-woman-section-before-footer img{
+  height: 100%;
+}
+.section-before-footer p {
+  font-size: 13px;
+}
+.span-under-button-section-before-footer {
+  font-size: 11px;
+}
+.second-row-section-before-footer {
+  height: 448px;
+}
+
 /* main */
+
+
+
+
 /* footer */
+
+footer {
+  background-color: #32495B;
+}
 /* footer */
 /* utility */
 .b-radius-5 {
@@ -394,27 +473,35 @@ vertical-align: middle;
 .b-bottom {
   border-bottom: 0.5px solid white;
 }
+
 .b-right {
   border-right: 1px solid white;
 }
+
 .h-150 {
   height: 150px;
 }
+
 .h-70 {
   height: 70px;
 }
+
 .mb-50 {
-margin-bottom: 50px;
+  margin-bottom: 50px;
 }
+
 .p-top-27 {
   padding-top: 27px;
 }
+
 .p-top {
   padding-top: 50px;
 }
+
 .p-top-10 {
   padding-top: 10px;
 }
+
 .p-top-20 {
   padding-top: 20px;
 }
@@ -422,9 +509,14 @@ margin-bottom: 50px;
 .p-bottom-50 {
   padding-bottom: 50px;
 }
+.pb-30 {
+  padding-bottom: 30px;
+}
+
 .p-bottom-10 {
   padding-bottom: 10px;
 }
+
 .p-bottom {
   padding-bottom: 20px;
 }
@@ -441,7 +533,6 @@ margin-bottom: 50px;
   background-color: white;
 }
 
-
 .d-inline-block {
   display: inline-block;
 }
@@ -457,6 +548,10 @@ margin-bottom: 50px;
 
 .fa-search {
   color: #50BFD1;
+}
+
+.h-500 {
+  height: 500px;
 }
 
 .l-h-2 {
