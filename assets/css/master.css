@@ -422,6 +422,7 @@ padding-top: 20px;
 }
 
 .webp {
+  padding: 0 10px;
   width: 130px;
   display: inline-block;
 }
