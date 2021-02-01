@@ -463,8 +463,65 @@ padding-top: 20px;
 /* footer */
 
 footer {
+  padding-top: 30px;
+  line-height: 2em;
+  color: #ffffff;
   background-color: #32495B;
 }
+footer h4 {
+  padding-bottom: 10px;
+}
+footer .contact-hubspot-support {
+  padding-top: 30px;
+}
+footer ul li a {
+  font-size: 13px;
+  color: #ffffff;
+  padding-left: 0;
+}
+
+footer .social-icons-list li {
+  display: inline-block;
+  padding: 15px 20px 15px 0;
+}
+.fa-instagram-square {
+  background-color: #32495B;
+}
+footer .social-icons-list ul li a {
+
+  font-size: 20px;
+}
+
+footer .langueges-footer ul li {
+  display: inline-block;
+  padding: 10px 15px;
+}
+footer .col-100 {
+  text-align: center;
+}
+footer .logo-footer {
+  padding-top: 24px;
+}
+footer .col-50 .logo-footer img {
+  color: #ffffff;
+  height: 29px;
+}
+footer .fa-copyright {
+  font-size: 13px;
+}
+footer .col-50.privacy {
+  padding-top: 17px;
+  text-align: right;
+}
+
+footer .privacy-list li {
+  padding-left: 15px;
+  display: inline-block;
+
+}
+
+
+
 /* footer */
 /* utility */
 .b-radius-5 {
@@ -555,7 +612,7 @@ footer {
   height: 500px;
 }
 
-.l-h-2 {
+.lh-2 {
   line-height: 2em;
 }
 
